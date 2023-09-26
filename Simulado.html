@@ -4,51 +4,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulado</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+    <form>
+    <p>
     <h1>Simulado</h1>
-    <br>
     <h2>1-Quanto é 1+1?</h2>
-    <input id="2a" type="radio" type="checkbox" name="1" value="2">
+    <input  id="2a" type="radio" type="checkbox" name="1" value="2" required>
     <label for="2a">2</label>
-    <br>
     <br>
     <input id="3a" type="radio" type="checkbox" name="1" value="3">
     <label for="3a">3</label>
     <br>
-    <br>
     <input id="4a" type="radio" type="checkbox" name="1" value="4">
     <label for="4a">4</label>
-    <br>
     <br>
     <input id="5a" type="radio" type="checkbox" name="1" value="4">
     <label for="5a">5</label>
     <br>
-    <br>
     <input id="6a" type="radio" type="checkbox" name="1" value="6">
     <label for="6a">6</label>
-    <br>
+    
     <h2>2-Quanto é 3+3?</h2>
-    <input id="10a" type="radio" type="checkbox" name="1" value="10">
+    <input id="10a" type="radio" type="checkbox" name="2" value="10" required>
     <label for="10a">10</label>
     <br>
-    <br>
-    <input id="12a" type="radio" type="checkbox" name="1" value="12">
+    <input id="12a" type="radio" type="checkbox" name="2" value="12">
     <label for="12a">12</label>
     <br>
-    <br>
-    <input id="42a" type="radio" type="checkbox" name="1" value="42">
+    <input id="42a" type="radio" type="checkbox" name="2" value="42">
     <label for="42a">42</label>
     <br>
-    <br>
-    <input id="6a" type="radio" type="checkbox" name="1" value="6">
+    <input id="6a" type="radio" type="checkbox" name="2" value="6">
     <label for="6a">6</label>
     <br>
-    <br>
-    <input id="100a" type="radio" type="checkbox" name="1" value="100">
+    <input id="100a" type="radio" type="checkbox" name="2" value="100">
     <label for="100a">100</label>
-    <br>
+    
     <h2>3-Quanto é 3-3?</h2>
+    <input id="0a" type="radio" type="checkbox" name="3" value="0" required>
+    <label for="0a">0</label>
+    <br>
+    <input id="1a" type="radio" type="checkbox" name="3" value="1">
+    <label for="1a">1</label>
+    <br>
+    <input id="2a" type="radio" type="checkbox" name="3" value="2">
+    <label for="2a">2</label>
+    <br>
+    <input id="3l" type="radio" type="checkbox" name="3" value="3">
+    <label for="3l" >3</label>
+    <br>
+    <input id="-1l" type="radio" type="checkbox" name="3" value="-1">
+    <label for="-1l" >-1</label>
+    
+    <h2>4-Quanto é 0+0?</h2>
+    <input id="1p" type="radio" type="checkbox" name="4" value="1" required>
+    <label for="1" >1</label>
+    <br>
+    <input id="0" type="radio" type="checkbox" name="4" value="0">
+    <label for="0" >0</label>
+    <br>
+    <input id="8" type="radio" type="checkbox" name="4" value="8">
+    <label for="8" >8</label>
+    <br>
+    <input id="11" type="radio" type="checkbox" name="4" value="11">
+    <label for="11" >11</label>
+    <br>
+    <input id="22" type="radio" type="checkbox" name="4" value="22">
+    <label for="22" >22</label>
+    <br>
+    <input id="23" type="radio" type="checkbox" name="4" value="23">
+    <label for="23" >23</label>
+    
+    <h2>5-Quanto é 10+10?</h1>
+    <input id="20" type="radio" type="checkbox" name="5" value="20" required>
+    <label for="20" >20</label>
+    <br>
+    <input id="54" type="radio" type="checkbox" name="5" value="53">
+    <label for="54" >54</label>
+    <br>
+    <input id="89" type="radio" type="checkbox" name="5" value="89">
+    <label for="89" >89</label>
+    <br>
+    <input id="78" type="radio" type="checkbox" name="5" value="78">
+    <label for="78" >78</label>
+    <br>
+    <input id="111" type="radio" type="checkbox" name="5" value="111">
+    <label for="111" >111</label>
+
+    <h2>6-Quando "porque" é utilizado?</h2>
+    <input id="6-por" type="radio" type="checkbox" name="6" value="6-por" required>
+    <label for="6-por" >Quando usado nas respostas</label>
+    <br>
+    <input id="poe" type="radio" type="checkbox" name="6" value="6-por">
+    <label for="poe" >Quando usado no meio das perguntas</label>
+    <br>
+    <input id="poe1" type="radio" type="checkbox" name="6" value="6-por">
+    <label for="poe1" >Quando usado no inicio das perguntas</label>
+    <br>
+    <input id="poe2" type="radio" type="checkbox" name="6" value="6-por">
+    <label for="poe2" >Quando usado no fim das perguntas</label>
+    <br>
+    <input id="poe3" type="radio" type="checkbox" name="6" value="6-por">
+    <label for="poe3" >Nenhuma das alternativas</label>
+    
+    <h2>7-quando a "?" é usado?</h3>
+    <input id="inte1" type="radio" type="checkbox" name="7" value="inte1" required>
+    <label for="inte1" >Usado quando é feito perguntas</label>
+    <br>
+    <input id="inte2" type="radio" type="checkbox" name="7" value="inte2">
+    <label for="inte2" >Usado para expressar a emoção</label>
+    <br>
+    <input id="inte3" type="radio" type="checkbox" name="7" value="inte3">
+    <label for="inte3" >Usado para por um fim na frase</label>
+    <br>
+    <input id="inte4" type="radio" type="checkbox" name="7" value="inte4">
+    <label for="inte4" >Usado para indicar pausa</label>
+    <br>
+    <input id="inte5" type="radio" type="checkbox" name="7" value="inte5">
+    <label for="inte5" >Nenhuma das alternativas</label>
+
+    <h2>8-o que é verbo transitivo direto?</h2>
+    <input id="v-1" type="radio" type="checkbox" name="8" value="v-1" required>
+    <label for="v-1" >Verbos que precisam da preposição</label>
+    <br>
+    <input id="v-2" type="radio" type="checkbox" name="8" value="v-2">
+    <label for="v-2" >Verbos que não precisam da preposição</label>
+    <br>
+    <input id="v-3" type="radio" type="checkbox" name="8" value="v-3">
+    <label for="v-3" >Verbos que não precisam do complemento</label>
+    <br>
+    <input id="v-4" type="radio" type="checkbox" name="8" value="v-4">
+    <label for="v-4" >Caracteristicas</label>
+    <br>
+    <input id="v-5" type="radio" type="checkbox" name="8" value="v-5">
+    <label for="v-5" >Nenhuma das alternativas</label>
+
+    <h2>9-o que verbo?</h2>
+    <input id="ver-1" type="radio" type="checkbox" name="9" value="ver-1" required>
+    <label for="ver-1" >Palavra utilizada para dar nome</label>
+    <br>
+    <input id="ver-2" type="radio" type="checkbox" name="9" value="ver-2">
+    <label for="ver-2" >palavra que indica caracteristica</label>
+    <br>
+    <input id="ver-3" type="radio" type="checkbox" name="9" value="ver-3">
+    <label for="ver-3" >Palavra que acompanha o substativo</label>
+    <br>
+    <input id="ver-4" type="radio" type="checkbox" name="9" value="ver-4">
+    <label for="ver-4" >palavra que antecede o substativo</label>
+    <br>
+    <input id="ver-5" type="radio" type="checkbox" name="9" value="ver-5">
+    <label for="ver-5" >Palavra que indica ação</label>
+
+    <h3>10-o que é interjeição?</h3>
+    <input id="inter-1" type="radio" type="checkbox" name="10" value="inter-1" required>
+    <label for="inter-1" >Palavra que exprime emoções</label>
+    <br>
+    <input id="inter-2" type="radio" type="checkbox" name="10" value="inter-2">
+    <label for="inter-2" >Palavra que modifica o verbo</label>
+    <br>
+    <input id="inter-3" type="radio" type="checkbox" name="10" value="inter-3">
+    <label for="inter-3" >Palavra que determina o sujeito especifico</label>
+    <br>
+    <input id="inter-4" type="radio" type="checkbox" name="10" value="inter-4">
+    <label for="inter-4" >Palavra que determina os sujeitos genericos</label>
+    <br>
+    <input id="inter-5" type="radio" type="checkbox" name="10" value="inter-5" >
+    <label for="inter-5" >Nenhuma das alternativas</label>
+    <br>
+    <br>
+    <input type="submit" value="iniciar teste" formaction="file:///C:/Users/Pichau/Documents/GitHub/Site/Simulado.html" >
+   </form>
+    
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
 
     
     
